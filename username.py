@@ -1,7 +1,19 @@
-print("\nusername generator by Sukant | sukant929@protonmail.com\n")
-f_name = raw_input("Enter First Name: ")
-l_name = raw_input("Enter Last Name: ")
-num = raw_input("Enter Birth Year: ")
+print("_____________________________________________________________")
+print("\n\033[07musername by Sukant\033[27m | \033[07msukant929@protonmail.com\033[27m")
+print("\033[07m\033[1;31mGenerate username using First Name, Last Name & Birth Year...\033[1;m \033[27m")
+print("***** All fields are mandatory *****")
+print("_____________________________________________________________\n")
+f_name = ''
+l_name = ''
+num = ''
+while f_name == '':
+	f_name = raw_input("Enter First Name: ")
+while l_name == '':
+	l_name = raw_input("Enter Last Name: ")
+while num == '':
+	num = raw_input("Enter Birth Year: ")
+
+
 print("\n---------------------------------------\n")
 print(f_name) #sukant
 print(l_name) #sharma
